@@ -15,7 +15,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 600px;
+    max-width: 50vw;
     background-color: var(--ctp-macchiato-base);
     padding: 30px;
     text-align: center;
@@ -24,11 +24,11 @@ body {
     box-shadow: inset 0 0 10px var(--ctp-macchiato-crust);
 }
   .header {
-    font-size: 24px;
+    font-size: 150%;
     font-weight: bold;
 }
   .info-box {
-    font-size: 16px;
+    font-size: 10;
     margin: 20px;
 }
   .links a {
@@ -39,19 +39,19 @@ body {
     bottom: 2%;
     left: 50%;
     transform: translate(-50%);
-    max-width: 300px;
+    max-width: 25vw;
     background-color: var(--ctp-macchiato-base);
-    padding: 0px 5px;
+    padding: 1px 12px;
     border-radius: 5px;
     box-shadow: inset 0 0 10px var(--ctp-macchiato-crust);
     text-align: center;
     font-size: 65%;
 }
-@media (max-height: 320px) {
+/*@media (max-height: 320px) {
   .footer {
     display: none;
   }
-}
+} */
   a {
     color: var(--ctp-macchiato-pink);
 }
