@@ -3,6 +3,9 @@
 	font-family: 'CascadiaCode';
 	src: url(CascadiaCode.woff2);
 }
+:root {
+    line-height: 1.4;
+}
 body {
     background-color: var(--ctp-macchiato-crust);
     color: var(--ctp-macchiato-text);
